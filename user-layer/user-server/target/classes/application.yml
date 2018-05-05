@@ -1,0 +1,15 @@
+appId: user-server
+
+server:
+  port: 8080
+mandal:
+  scan:
+    basePackages: cn.ching.user
+protocol:
+  id: rmi
+  name: rmi
+  port: 6666
+registry:
+  address: 101.132.69.202:2181
+  protocol: zookeeper://
+  client: zkclient
